@@ -17,3 +17,8 @@ Only an loggedIn user is allowed to add question.A question may have multiple ca
 1.Single add Question: (i) with Authentication middle wire (ii) aggregation is used
 2. Category wise Question fetch with seacrh filter: (i) with Authentication middle wire (ii) if we add query param it will search accordingly else it will group according to category (ii) aggregation is used
 3.Bulk add Question: (i) with Authentication middle wire (ii) aggregation is used
+
+
+## API documentation
+
+[text](https://documenter.getpostman.com/view/25203747/2sAXxV6A9w)
