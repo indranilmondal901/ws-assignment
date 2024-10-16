@@ -1,5 +1,5 @@
 # ws-assignment
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## All Credentials are written in env for security purposes only db url is publicly available
 
