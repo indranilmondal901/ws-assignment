@@ -11,6 +11,7 @@ require("./Config/db");
 
 //routers
 const UserRoutes = require("./Routes/UserRoutes");
+const QuestionRoutes = require("./Routes/QuestionRoutes");
 
 //Global error handler
 const ErrorLog = require("./Controllers/ErrorHandler/ErrorLog");
@@ -20,6 +21,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 app.use("/api/v1/user",UserRoutes);
+app.use("/api/v1/question",QuestionRoutes);
 app.use(ErrorLog);
 
 //listen(server)
