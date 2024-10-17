@@ -106,7 +106,7 @@ const AddQuestion = async (req, res, next) => {
 
     await newQuestion.save();
 
-    res
+    return res
       .status(201)
       .json({ message: "Question added successfully", question: newQuestion });
   } catch (error) {
